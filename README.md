@@ -1,7 +1,9 @@
 # Animal Recognition Website (Hệ thống Nhận diện Động vật)
 
 Đồ án Thực tập Chuyên ngành Công nghệ Phần mềm
+
 **Sinh viên thực hiện:** Nguyễn Mạnh Hiếu - K225480106020
+
 **GVHD:** ThS. Đỗ Duy Cốp
 
 ---
