@@ -14,7 +14,7 @@ Dự án xây dựng website cho phép người dùng upload ảnh động vật
 ### Công nghệ sử dụng
 * **AI Core:** Python, TensorFlow/Keras (CNN - Convolutional Neural Network).
 * **Backend:** Python Flask Framework.
-* **Frontend:** HTML5, CSS3 (Bootstrap), JavaScript (Chart.js).
+* **Frontend:** HTML, CSS (Bootstrap), JavaScript (Chart.js).
 * **Database:** MySQL.
 * **DevOps & Deployment:** Docker, Docker Compose, Cloudflare Tunnel.
 
