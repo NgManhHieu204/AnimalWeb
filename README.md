@@ -21,3 +21,10 @@ Dự án xây dựng website cho phép người dùng upload ảnh động vật
 * `src/backend`: Mã nguồn server Flask và API.
 * `src/frontend`: Giao diện người dùng.
 * `docs`: Tài liệu báo cáo và thiết kế hệ thống.
+
+## Tài liệu Thiết kế (Design)
+Dự án đã hoàn thành giai đoạn phân tích thiết kế hệ thống:
+* [Biểu đồ Use Case](./docs/design/Usecase.png)
+* [Sơ đồ ERD](./docs/design/ERD.png)
+* [Biểu đồ hoạt động](./docs/design/Hoatdong.png)
+* [Biểu đồ tuần tự](./docs/design/Tuantu.png)

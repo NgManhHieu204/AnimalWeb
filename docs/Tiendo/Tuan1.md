@@ -1,7 +1,8 @@
 # Báo cáo tiến độ Tuần 1 (25/12 - 31/12/2025)
 
-**Người thực hiện:** Nguyễn Mạnh Hiếu
-**Nội dung công việc:** Khởi tạo dự án và Nghiên cứu công nghệ.
+**Họ tên:** Nguyễn Mạnh Hiếu
+
+**Nội dung:** Khởi tạo dự án và Nghiên cứu công nghệ.
 
 ## 1. Công việc đã hoàn thành
 * Nhận đề tài và chốt yêu cầu chức năng với GVHD.
