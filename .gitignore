@@ -6,10 +6,9 @@ venv/
 env/
 .env
 
-# Dataset & Models
+# Dataset
 src/ai_engine/dataset/
-src/ai_engine/model.h5
-src/backend/uploads/
+uploads/
 
 # IDE
 .vscode/
