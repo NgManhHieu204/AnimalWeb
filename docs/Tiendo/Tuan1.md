@@ -1,6 +1,6 @@
 # Báo cáo tiến độ Tuần 1 (25/12 - 31/12/2025)
 
-**Họ tên:** Nguyễn Mạnh Hiếu
+**Họ và tên sinh viên:** Nguyễn Mạnh Hiếu
 
 **Nội dung:** Khởi tạo dự án và Nghiên cứu công nghệ.
 

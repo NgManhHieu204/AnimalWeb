@@ -1,6 +1,6 @@
 # Báo cáo Tiến độ Tuần 2 (01/01 - 07/01/2026)
 
-**Họ tên:** Nguyễn Mạnh Hiếu
+**Họ và tên sinh viên:** Nguyễn Mạnh Hiếu
 
 **Nội dung:** Phân tích, Thiết kế hệ thống và Chuẩn bị dữ liệu.
 
