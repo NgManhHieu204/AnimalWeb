@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hệ thống Nhận diện Động vật AI</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-light">
+
+    <div class="container py-5">
+        <div class="row justify-content-center">
+            <div class="col-md-8 col-lg-6">
+                
+                <div class="text-center mb-4">
+                    <h1 class="display-6 fw-bold text-primary">Animal AI</h1>
+                    <p class="text-muted">Tải ảnh lên để AI đoán xem là con gì nhé!</p>
+                </div>
+
+                <div class="card shadow-sm border-0 rounded-4">
+                    <div class="card-body p-4">
+                        
+                        <div class="mb-4 text-center upload-area" id="dropArea">
+                            <input type="file" id="imageInput" accept="image/*" class="d-none">
+                            <label for="imageInput" class="btn btn-outline-primary w-100 py-3 border-dashed">
+                                📂 Chọn ảnh từ máy tính
+                            </label>
+                        </div>
+
+                        <div class="text-center mb-4 d-none" id="previewContainer">
+                            <img id="imagePreview" src="" alt="Preview" class="img-fluid rounded-3 shadow-sm" style="max-height: 300px;">
+                        </div>
+
+                        <button id="predictBtn" class="btn btn-primary w-100 py-2 fs-5 fw-bold d-none">
+                            Nhận diện ngay
+                        </button>
+
+                        <div id="resultContainer" class="mt-4 pt-3 border-top d-none">
+                            <h5 class="text-center mb-3">Kết quả phân tích:</h5>
+                            
+                            <div class="alert alert-success text-center">
+                                Là con: <strong id="resultLabel" class="fs-4 text-uppercase">...</strong>
+                            </div>
+
+                            <div class="mb-2 d-flex justify-content-between">
+                                <span>Độ tin cậy:</span>
+                                <span id="confidenceText">0%</span>
+                            </div>
+                            <div class="progress" style="height: 20px;">
+                                <div id="confidenceBar" class="progress-bar bg-success progress-bar-striped progress-bar-animated" role="progressbar" style="width: 0%"></div>
+                            </div>
+                        </div>
+
+                        <div id="loading" class="text-center mt-3 d-none">
+                            <div class="spinner-border text-primary" role="status">
+                                <span class="visually-hidden">Loading...</span>
+                            </div>
+                            <p class="mt-2 text-muted">AI đang suy nghĩ...</p>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="text-center mt-4 text-muted small">
+                    &copy; 2026 Animal Recognition Project
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

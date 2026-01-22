@@ -4,13 +4,27 @@ services:
     container_name: animal_mysql_container
     restart: always
     environment:
+      MYSQL_ROOT_PASSWORD: root123
       MYSQL_DATABASE: animal_db
-      MYSQL_ROOT_PASSWORD: root123 # Mật khẩu
     ports:
       - "3306:3306"
     volumes:
       - db_data:/var/lib/mysql
       - ./src/database_scripts:/docker-entrypoint-initdb.d
+
+  # 2. Giao diện quản lý Database (Cái mới thêm)
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin
+    container_name: animal_phpmyadmin
+    restart: always
+    environment:
+      PMA_HOST: db
+      PMA_USER: root
+      PMA_PASSWORD: root123
+    ports:
+      - "8080:80"
+    depends_on:
+      - db
 
 volumes:
   db_data:

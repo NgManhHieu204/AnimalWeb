@@ -1,0 +1,19 @@
+.border-dashed {
+    border: 2px dashed #0d6efd;
+    background-color: #f8f9fa;
+    transition: all 0.3s;
+}
+
+.border-dashed:hover {
+    background-color: #e9ecef;
+    border-color: #0b5ed7;
+}
+
+.rounded-4 {
+    border-radius: 1rem !important;
+}
+
+#imagePreview {
+    object-fit: contain;
+    background-color: #000;
+}

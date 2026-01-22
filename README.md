@@ -30,3 +30,11 @@ Dự án đã hoàn thành giai đoạn phân tích thiết kế hệ thống:
 * [Sơ đồ ERD](./docs/design/ERD.png)
 * [Biểu đồ hoạt động](./docs/design/Hoatdong.png)
 * [Biểu đồ tuần tự](./docs/design/Tuantu.png)
+
+## Nhật ký thực tập
+Theo dõi tiến độ thực hiện dự án theo từng tuần:
+
+* [**Tuần 1:** Khởi tạo dự án & Tìm hiểu yêu cầu](docs/Tuan1.md)
+* [**Tuần 2:** Phân tích & Thiết kế hệ thống](docs/Tuan2.md)
+* [**Tuần 3:** Xây dựng Core AI và Database](docs/Tiendo/Tuan3.md)
+* [**Tuần 4:** Xây dựng Giao diện Web (Frontend)](docs/Tiendo/Tuan4.md)
